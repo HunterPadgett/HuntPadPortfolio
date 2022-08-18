@@ -1,0 +1,41 @@
+* {
+  font-family: "Audiowide", cursive;
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  background-image: url("./img/john-towner-JgOeRuGD_Y4-unsplash.jpg");
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#navText {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+#navText:hover {
+  font-size: 42px;
+  color: #ce243b;
+  transition: 0.4s;
+}
+
+#navText::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background: #ce243b;
+  transition: width 0.3s;
+}
+
+#navText:hover::after {
+  width: 100%;
+}
