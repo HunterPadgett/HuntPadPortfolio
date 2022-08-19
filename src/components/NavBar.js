@@ -22,18 +22,18 @@ window.addEventListener('scroll', changeNavBg)
   
     return (
   
-        <ul className="navContainer active" class="nav p-3 md" id={color ? 'navContainer-bg' : 'navContainer'}>
+        <ul className="navContainer active" class="nav md" id={color ? 'navContainer-bg' : 'navContainer'}>
             <li class="nav-item">
-                <Link to="/about" spy={true} smooth={true} offset={50} duration={500} class="nav-link " id={color ? 'navText-bg' : 'navText'} href="#about">{home}</Link>
+                <Link to="home" smooth={true} offset={0} duration={300} class="nav-link" id={color ? 'navText-bg' : 'navText'} >{home}</Link>
             </li>
             <li class="nav-item">
-                <Link to="/about" spy={true} smooth={true} offset={50} duration={500} class="nav-link " id={color ? 'navText-bg' : 'navText'} href="#about">{about}</Link>
+                <Link to="about" smooth={true} offset={30} duration={300} class="nav-link " id={color ? 'navText-bg' : 'navText'} >{about}</Link>
             </li>
             <li class="nav-item">
-                <Link to="/work" spy={true} smooth={true} offset={50} duration={500} class="nav-link " id={color ? 'navText-bg' : 'navText'} href="#work">{work}</Link>
+                <Link to="work" spy={true} smooth={true} offset={50} duration={500} class="nav-link " id={color ? 'navText-bg' : 'navText'} >{work}</Link>
             </li>
             <li class="nav-item">
-                <Link to="/contact" spy={true} smooth={true} offset={50} duration={500} class="nav-link " id={color ? 'navText-bg' : 'navText'} href="#contact">{contact}</Link>
+                <Link to="contact" spy={true} smooth={true} offset={50} duration={500} class="nav-link " id={color ? 'navText-bg' : 'navText'}>{contact}</Link>
             </li>
             <li class="nav-item">
                 <a class="nav-link " id={color ? 'navText-bg' : 'navText'} target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/e/2PACX-1vSiJgiJKFbeAVsUsXwc-CIv9bfowdcp9lWjfHhK9zlNzPUzoAmmJB_VDfN9UC-JH-OjZ42oUzECpd4S/pub">

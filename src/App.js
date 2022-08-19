@@ -1,13 +1,12 @@
 import "./App.js"
 import React from "react";
 import NavBar from "./components/NavBar.js";
-import Home from "./components/Home";
+import Home from "./components/HomePage";
 import AboutMe from "./components/AboutMe"
 
 function App() {
-  //parent component
   return (
-    <div >
+    <div className="entire">
       <NavBar />
       <Home />
       <AboutMe />
