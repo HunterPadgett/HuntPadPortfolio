@@ -1,34 +1,46 @@
 import "../App.css";
-import React from 'react';
-// import Container from 'react-bootstrap/Container';
-// import Navbar from 'react-bootstrap/Navbar';
-
+import {Link} from 'react-scroll'
+import React, { useState } from 'react';
 
 function NavBar() {
-    const home = 'HOME';
+    const home = 'HOME'
     const about = 'ABOUT';
     const resume = 'RESUME';
     const work = 'WORK';
     const contact = 'CONTACT';
+
+    const [color, setColor] = useState(false)
+const changeNavBg = () => {
+    if (window.scrollY >= 150) {
+        setColor(true)
+    } else {
+        setColor(false)
+    }
+}
+
+window.addEventListener('scroll', changeNavBg)
   
     return (
-    <ul class="nav justify-content-center p-3 md">
-        <li class="nav-item ">
-            <a class="nav-link " id='navText' aria-current="page" href="#">{home}</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link " id='navText' href="#">{about}</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link " id='navText' href="#">{resume}</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link " id='navText' href="#">{work}</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link " id='navText' href="#">{contact}</a>
-        </li>
-    </ul>
+  
+        <ul className="navContainer active" class="nav p-3 md" id={color ? 'navContainer-bg' : 'navContainer'}>
+            <li class="nav-item">
+                <Link to="/about" spy={true} smooth={true} offset={50} duration={500} class="nav-link " id={color ? 'navText-bg' : 'navText'} href="#about">{home}</Link>
+            </li>
+            <li class="nav-item">
+                <Link to="/about" spy={true} smooth={true} offset={50} duration={500} class="nav-link " id={color ? 'navText-bg' : 'navText'} href="#about">{about}</Link>
+            </li>
+            <li class="nav-item">
+                <Link to="/work" spy={true} smooth={true} offset={50} duration={500} class="nav-link " id={color ? 'navText-bg' : 'navText'} href="#work">{work}</Link>
+            </li>
+            <li class="nav-item">
+                <Link to="/contact" spy={true} smooth={true} offset={50} duration={500} class="nav-link " id={color ? 'navText-bg' : 'navText'} href="#contact">{contact}</Link>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " id={color ? 'navText-bg' : 'navText'} target="_blank" rel="noreferrer" href="https://docs.google.com/document/d/e/2PACX-1vSiJgiJKFbeAVsUsXwc-CIv9bfowdcp9lWjfHhK9zlNzPUzoAmmJB_VDfN9UC-JH-OjZ42oUzECpd4S/pub">
+                    {resume}</a>
+            </li>
+        </ul>
+ 
 );
 }
 
