@@ -14,8 +14,8 @@ function Home() {
           animate={{ x: 0 }}
           transition={{
             type: "spring",
-            bounce: 0.3,
-            duration: 2.5,
+            bounce: 0.4,
+            duration: 1,
           }}
         >
           Hi, I'm Hunter
@@ -29,6 +29,8 @@ function Home() {
               "web developer 💻",
               3000,
               "learner 📖",
+              3000,
+              "collaborator 🤝",
               3000,
               "gamer 🕹️",
               3000,
@@ -45,10 +47,3 @@ function Home() {
 }
 
 export default Home;
-
-// return (
-//      <div class="homeImg">
-//         <h1 id="homeName">Hunter Padgett <br />
-//         Web Developer </h1>
-//       </div>
-//   );
