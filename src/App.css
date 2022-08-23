@@ -19,6 +19,7 @@ body {
   margin-right: auto;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 #navContainer-bg {
@@ -31,6 +32,7 @@ body {
   right: 0;
   background: linear-gradient(90deg, #8a2387 0%, #e94057 50%, #f27121 100%);
   transition: 0.9s ease all;
+  z-index: 1;
 }
 
 #navText {
@@ -220,7 +222,7 @@ ABOUT SCREEN STYLING
   left: 0;
   min-width: 100%;
   min-height: 100%;
-  z-index: -1;
+  z-index: 0;
 }
 
 #aboutMeTitle {
@@ -286,6 +288,8 @@ ABOUT SCREEN STYLING
   /* font-weight: bold; */
   background: linear-gradient(90deg, #8a2387 0%, #e94057 50%, #f27121 100%);
   text-shadow: 2px 3px 5px rgb(0, 0, 0);
+  transition: 0.3s;
+  border: none;
 }
 
 @media screen and (max-width: 960px) {
@@ -294,15 +298,24 @@ ABOUT SCREEN STYLING
     font-size: 18px;
     color: #f5f5f5;
     text-decoration: none;
+    border: none;
   }
 }
 
 .languages:hover {
-  font-size: 26px;
+  font-size: 24.5px;
   color: #f5f5f5;
+  
   /* font-weight: bold; */
-  background: linear-gradient(90deg, #8a2387 0%, #e94057 50%, #f27121 100%);
-  text-shadow: 2px 3px 5px rgb(0, 0, 0);
+  background: linear-gradient(90deg, #f27121 0%, #e94057 50%, #8a2387 100%);
+  box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.836);
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 960px) {
+  #skills {
+    padding-top: 1rem;
+}
 }
 
 /* 
@@ -311,21 +324,24 @@ WORK
 
 */
 
+
 .workContainer {
   flex-wrap: wrap;
   display: flex;
-  box-shadow: 0 4px 21px -10px rgb(255, 252, 252);
+  box-shadow: -3px -5px 20px -15px rgb(255, 252, 252);
   overflow: hidden;
   position: relative;
-  color: #f5f5f5;
+  background-color: #12181b;
+  /* color: #f5f5f5; */
+  z-index: 0;
 }
 
-.postcard__title a {
+.workTitle a {
     color: #f5f5f5;
     text-decoration: none;
 }
 
-.postcard__preview-txt {
+.workDesc {
     font-size: 14px;
     color: #f5f5f5;
     text-decoration: none;
@@ -342,7 +358,7 @@ WORK
   display: contents;
 }
 
-.postcard__preview-txt {
+.workDesc {
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: justify;
@@ -354,20 +370,16 @@ WORK
     flex-wrap: inherit;
   }
 
-  .postcard__title a {
+  .workTitle a {
     color: #f5f5f5;
     text-decoration: none;
   }
 
-  .postcard__preview-txt {
+  .workDesc {
     font-size: 18px;
     color: #f5f5f5;
     text-decoration: none;
 }
-
-  .postcard__tagbox {
-    justify-content: start;
-  }
 
   .workImg {
     max-width: 300px;
@@ -376,7 +388,7 @@ WORK
     transition: transform 0.3s ease;
   }
 
-  .postcard__text {
+  .workWords {
     padding: 3rem;
     width: 100%;
   }
@@ -400,5 +412,52 @@ FOOTER
   left: 0;
   min-width: 100%;
   min-height: 100%;
-  z-index: -1;
+  z-index: 0;
+}
+
+#footerTitle {
+  font-size: 70px;
+  font-weight: bold;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+#footerIcons {
+  color: #bb86fc;
+  font-size: 50px;
+}
+
+#footerIcons:hover {
+  color: #bb86fc;
+  font-size: 50px;
+  scale: 1.1;
+  /* box-shadow: 1px 1px 1px rgb(255, 255, 255); */
+  transition: 0.3s;
+  border: none;
+}
+
+#footerIcons::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #bb86fc;
+  transition: width 0.3s;
+  box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.5);
+}
+
+#footerIcons:hover::after {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  #footerIcons {
+  color: #bb86fc;
+  font-size: 40px;
+}
+}
+
+.foot {
+  color: #bb86fc;
+  font-size: 15px;
 }

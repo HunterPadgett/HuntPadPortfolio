@@ -34,6 +34,8 @@ function Home() {
               3000,
               "gamer 🕹️",
               3000,
+              "sports fan 🏈",
+              3000,
               "coffee addict ☕",
               3000,
               "lifter 🏋️‍♂️",

@@ -18,12 +18,12 @@ function Work() {
             <a class="workImgLink" href="#" target="_blank" rel="noreferrer">
               <img class="workImg" src={cthulhu} alt="video game project" />
             </a>
-            <div class="postcard__text">
-              <h1 class="postcard__title ">
+            <div class="workWords">
+              <h1 class="workTitle ">
                 <a href="#">Cthulhu Invades!</a>
               </h1>
 
-              <div class="postcard__preview-txt">
+              <div class="workDesc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eligendi, fugiat asperiores inventore beatae accusamus odit
                 minima enim, commodi quia, doloribus eius! Ducimus nemo
@@ -43,14 +43,14 @@ function Work() {
             >
               <img class="workImg" src={womanImg} alt="womans rights march" />
             </a>
-            <div class="postcard__text">
-              <h1 class="postcard__title">
+            <div class="workWords">
+              <h1 class="workTitle">
                 <a href="https://hunterpadgett.github.io/project-one/#gsc.tab=0">
-                  Women's Rights Health Center
+                  Reproductive Rights Center
                 </a>
               </h1>
 
-              <div class="postcard__preview-txt">
+              <div class="workDesc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eligendi, fugiat asperiores inventore beatae accusamus odit
                 minima enim, commodi quia, doloribus eius! Ducimus nemo
@@ -65,12 +65,12 @@ function Work() {
             <a class="workImgLink" href="#" target="_blank" rel="noreferrer">
               <img class="workImg" src={redsand} alt="exmaple project" />
             </a>
-            <div class="postcard__text">
-              <h1 class="postcard__title">
+            <div class="workWords">
+              <h1 class="workTitle">
                 <a href="#">Title</a>
               </h1>
 
-              <div class="postcard__preview-txt">
+              <div class="workDesc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eligendi, fugiat asperiores inventore beatae accusamus odit
                 minima enim, commodi quia, doloribus eius! Ducimus nemo

@@ -3,7 +3,7 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div id="about" class="aboutImg container-fluid text-center pt-5 pb-5">
+    <div id="about" class="aboutImg container-fluid text-center pt-5 ">
       <hr id="aboutBreak" />
       <h1 class="p-3" id="aboutMeTitle">
         About Me
@@ -27,7 +27,7 @@ function AboutMe() {
             consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
           </p>
         </div>
-        <div class="col-lg-4 col-sm-12 d-flex row align-content-center " id="">
+        <div class="col-lg-4 col-sm-12 d-flex row align-content-center" id="skills">
           <h1 class="p-2 " id="skillsTitle">
             Skills
           </h1>
