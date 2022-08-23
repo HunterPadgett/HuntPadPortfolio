@@ -381,3 +381,24 @@ WORK
     width: 100%;
   }
 }
+
+/* 
+
+FOOTER
+
+*/
+
+.footerImg {
+  /* background-image: url("./img/footerImg.jpg"); */
+  background-color: #121212;
+  background-size: contain;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}

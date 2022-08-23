@@ -27,10 +27,10 @@ window.addEventListener('scroll', changeNavBg)
                 <Link to="home" smooth={true} offset={0} duration={300} class="nav-link" id={color ? 'navText-bg' : 'navText'} >{home}</Link>
             </li>
             <li class="nav-item">
-                <Link to="about" smooth={true} offset={-25} duration={300} class="nav-link " id={color ? 'navText-bg' : 'navText'} >{about}</Link>
+                <Link to="about" smooth={true} offset={-50} duration={300} class="nav-link " id={color ? 'navText-bg' : 'navText'} >{about}</Link>
             </li>
             <li class="nav-item">
-                <Link to="work" smooth={true} offset={-5} duration={500} class="nav-link " id={color ? 'navText-bg' : 'navText'} >{work}</Link>
+                <Link to="work" smooth={true} offset={-50} duration={500} class="nav-link " id={color ? 'navText-bg' : 'navText'} >{work}</Link>
             </li>
             <li class="nav-item">
                 <Link to="contact" spy={true} smooth={true} offset={50} duration={500} class="nav-link " id={color ? 'navText-bg' : 'navText'}>{contact}</Link>
