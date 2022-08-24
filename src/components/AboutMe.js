@@ -1,16 +1,31 @@
 import "../App.css";
 import React from "react";
+import TagCloud from "react3dtagcloud";
 
 function AboutMe() {
+  const tagName = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Bootstrap++",
+    "jQuery",
+    "React",
+    "Node.js",
+    "MongoDB",
+    "MySQL",
+    "Handlebars.js",
+    "Git",
+  ];
+
   return (
-    <div id="about" class="aboutImg container-fluid text-center pt-5 ">
+    <div id="about" class="aboutImg container-fluid text-center pt-5 pb-5">
       <hr id="aboutBreak" />
       <h1 class="p-3" id="aboutMeTitle">
         About Me
       </h1>
 
-      <div class="row justify-content-around pt-5 pb-5">
-        <div class="col-lg-4 col-sm-12 d-flex text-center">
+      <div class="row justify-content-around pt-5">
+        <div class="col-lg-4 col-sm-10 d-flex text-center">
           <p id="aboutMeBody">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
@@ -27,26 +42,14 @@ function AboutMe() {
             consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
           </p>
         </div>
-        <div class="col-lg-4 col-sm-12 d-flex row align-content-center" id="skills">
-          <h1 class="p-2 " id="skillsTitle">
-            Skills
-          </h1>
-          <div
-            class="nav flex-row flex-wrap justify-content-center"
-            id="skillsList"
-          >
-            <button class="languages p-2 m-2">HTML</button>
-            <button class="languages p-2 m-2">CSS</button>
-            <button class="languages p-2 m-2">JavaScript</button>
-            <button class="languages p-2 m-2">Bootstrap</button>
-            <button class="languages p-2 m-2">jQuery</button>
-            <button class="languages p-2 m-2">Node.js</button>
-            <button class="languages p-2 m-2">MongoDB</button>
-            <button class="languages p-2 m-2">GraphQL</button>
-            <button class="languages p-2 m-2">MySQL</button>
-            <button class="languages p-2 m-2">Handlebars.js</button>
-            <button class="languages p-2 m-2">React</button>
-            <button class="languages p-2 m-2">Git</button>
+        <div class="col-lg-4 col-sm-10 d-flex row pt-5" id="skills">
+          <div class="nav flex-row flex-wrap" id="skillsList">
+            <TagCloud
+              id="sphere"
+              tagName={tagName}
+              speed={1}
+              radius={200}
+            ></TagCloud>
           </div>
         </div>
       </div>
