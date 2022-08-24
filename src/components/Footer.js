@@ -4,13 +4,13 @@ import TopBtn from "./TopBtn";
 
 function Footer() {
   return (
-    <div id="contact" class="aboutImg container-fluid text-center pt-5">
+    <div id="contact" class="aboutImg container-fluid text-center pt-">
       <hr id="aboutBreak" />
       <h1 class="p-3" id="aboutMeTitle">
         Get in Touch!
       </h1>
 
-      <div class="row justify-content-around pt-5 pb-3">
+      <div class="row justify-content-around pt-5 pb-">
         <div class="col-lg-4 col-sm-12 d-flex text-center">
           <footer class=" text-center w-100" id="footer">
             <div class="container pb-0" id="linkedIn">
@@ -50,9 +50,7 @@ function Footer() {
           </footer>
         </div>
 
-        <p class="foot d-flex justify-content-start ml-2 p-2">
-          Designed by Hunter Padgett 2022
-        </p>
+        <p class="foot ml-2 p-2">Designed by Hunter Padgett 2022 ©</p>
       </div>
     </div>
   );

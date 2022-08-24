@@ -24,13 +24,9 @@ function Work() {
               </h1>
 
               <div class="workDesc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi, fugiat asperiores inventore beatae accusamus odit
-                minima enim, commodi quia, doloribus eius! Ducimus nemo
-                accusantium maiores velit corrupti tempora reiciendis molestiae
-                repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt
-                neque nulla unde ipsum dolores nobis enim quidem excepturi,
-                illum quos!
+                A modern spin on the 8-bit turn-based retro video games of the
+                80s. Choose your figher and face off against Lord Cthulhu in
+                this light-hearted save the world style game.
               </div>
             </div>
           </article>
@@ -51,13 +47,8 @@ function Work() {
               </h1>
 
               <div class="workDesc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi, fugiat asperiores inventore beatae accusamus odit
-                minima enim, commodi quia, doloribus eius! Ducimus nemo
-                accusantium maiores velit corrupti tempora reiciendis molestiae
-                repellat vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt
-                neque nulla unde ipsum dolores nobis enim quidem excepturi,
-                illum quos!
+                A hub where you can keep up to date with the most recent news and leglislature
+                concerning women's reproductive rights rights both nationally and at a state level.
               </div>
             </div>
           </article>
