@@ -2,7 +2,7 @@ import "../App.css";
 import React from "react";
 import womanImg from "../img/womansRights.jpg";
 import cthulhu from "../img/HomeScreen.png";
-import redsand from "../img/redsand.jpg";
+import redsand from "../img/unknown.png";
 
 function Work() {
   return (
@@ -69,20 +69,18 @@ function Work() {
             </div>
           </article>
           <article class="workContainer m-3 p-3">
-            <a class="workImgLink" href="#" target="_blank" rel="noreferrer">
+            <a class="workImgLink" href="https://suffer-game-gtbootcamp.herokuapp.com/" target="_blank" rel="noreferrer">
               <img class="workImg" src={redsand} alt="exmaple project" />
             </a>
             <div class="workWords">
               <h1 class="workTitle p-1 mt-1">
-                <a href="#" target="_blank" rel="noreferrer">
-                  Project 3 Coming Soon
+                <a href="https://suffer-game-gtbootcamp.herokuapp.com/" target="_blank" rel="noreferrer">
+                  Suffer
                 </a>
               </h1>
 
               <div class="workDesc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Eligendi, fugiat asperiores inventore beatae accusamus odit
-                minima enim, commodi quia, doloribus eius! Ducimus nemo
+                A full-stack react app that is designed to look like a classic arcade game. Login, play the game, and try to make it to the top of highscore list!
               </div>
             </div>
           </article>
