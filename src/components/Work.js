@@ -15,6 +15,22 @@ function Work() {
       <section class="py-5">
         <div class="container">
           <article class="workContainer m-3 p-3">
+            <a class="workImgLink" href="https://suffer-game-gtbootcamp.herokuapp.com/" target="_blank" rel="noreferrer">
+              <img class="workImg" src={redsand} alt="exmaple project" />
+            </a>
+            <div class="workWords">
+              <h1 class="workTitle p-1 mt-1">
+                <a href="https://suffer-game-gtbootcamp.herokuapp.com/" target="_blank" rel="noreferrer">
+                  Suffer
+                </a>
+              </h1>
+
+              <div class="workDesc">
+                MERN stack that is designed to look and feel like a classic arcade game. Login, play the game, and try to make it to the top of highscore list!
+              </div>
+            </div>
+          </article>
+          <article class="workContainer m-3 p-3">
             <a
               class="workImgLink"
               href="https://lit-crag-19257.herokuapp.com/"
@@ -68,22 +84,7 @@ function Work() {
               </div>
             </div>
           </article>
-          <article class="workContainer m-3 p-3">
-            <a class="workImgLink" href="https://suffer-game-gtbootcamp.herokuapp.com/" target="_blank" rel="noreferrer">
-              <img class="workImg" src={redsand} alt="exmaple project" />
-            </a>
-            <div class="workWords">
-              <h1 class="workTitle p-1 mt-1">
-                <a href="https://suffer-game-gtbootcamp.herokuapp.com/" target="_blank" rel="noreferrer">
-                  Suffer
-                </a>
-              </h1>
-
-              <div class="workDesc">
-                A full-stack react app that is designed to look like a classic arcade game. Login, play the game, and try to make it to the top of highscore list!
-              </div>
-            </div>
-          </article>
+          
         </div>
       </section>
     </div>
