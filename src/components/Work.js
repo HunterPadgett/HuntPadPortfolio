@@ -3,6 +3,7 @@ import React from "react";
 import womanImg from "../img/womansRights.jpg";
 import cthulhu from "../img/HomeScreen.png";
 import redsand from "../img/unknown.png";
+import MCC from "../img/MCC.png";
 
 function Work() {
   return (
@@ -16,7 +17,23 @@ function Work() {
         <div class="container">
           <article class="workContainer m-3 p-3">
             <a class="workImgLink" href="https://suffer-game-gtbootcamp.herokuapp.com/" target="_blank" rel="noreferrer">
-              <img class="workImg" src={redsand} alt="exmaple project" />
+              <img class="lawfirmImg" src={MCC} alt="law firm website" />
+            </a>
+            <div class="workWords">
+              <h1 class="workTitle p-1 mt-1">
+                <a href="https://suffer-game-gtbootcamp.herokuapp.com/" target="_blank" rel="noreferrer">
+                  Mahoney, Cole & Coursey
+                </a>
+              </h1>
+
+              <div class="workDesc">
+                A React website built for Mahoney, Cole & Coursey law firm in Savannah, GA 
+              </div>
+            </div>
+          </article>
+          <article class="workContainer m-3 p-3">
+            <a class="workImgLink" href="https://suffer-game-gtbootcamp.herokuapp.com/" target="_blank" rel="noreferrer">
+              <img class="workImg" src={redsand} alt="MERN stack project screenshot" />
             </a>
             <div class="workWords">
               <h1 class="workTitle p-1 mt-1">

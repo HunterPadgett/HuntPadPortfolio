@@ -27,19 +27,19 @@ function Home() {
             loop={Infinity}
             steps={[
               "web developer 💻",
-              3000,
+              3500,
               "learner 📖",
-              3000,
+              3500,
               "collaborator 🤝",
-              3000,
+              3500,
               "gamer 🕹️",
-              3000,
+              3500,
               "sports fan 🏈",
-              3000,
+              3500,
               "coffee addict ☕",
-              3000,
+              3500,
               "lifter 🏋️‍♂️",
-              3000,
+              3500,
             ]}
           />
         </p>
