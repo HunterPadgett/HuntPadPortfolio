@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/HuntPadPortfolio/static/css/main.3c37b3be.css",
-    "main.js": "/HuntPadPortfolio/static/js/main.1f739d6a.js",
+    "main.css": "/HuntPadPortfolio/static/css/main.773073ac.css",
+    "main.js": "/HuntPadPortfolio/static/js/main.dff549f4.js",
     "static/media/redmnt.jpg": "/HuntPadPortfolio/static/media/redmnt.98664e295a7d2d25e44a.jpg",
     "static/media/womansRights.jpg": "/HuntPadPortfolio/static/media/womansRights.d0576baba586c21d0767.jpg",
+    "static/media/MCC.png": "/HuntPadPortfolio/static/media/MCC.bfd3e78da74e26c537ec.png",
     "static/media/HomeScreen.png": "/HuntPadPortfolio/static/media/HomeScreen.5299ff18f51fe9cac799.png",
     "static/media/unknown.png": "/HuntPadPortfolio/static/media/unknown.2c21f985372935f1702b.png",
     "index.html": "/HuntPadPortfolio/index.html",
-    "main.3c37b3be.css.map": "/HuntPadPortfolio/static/css/main.3c37b3be.css.map",
-    "main.1f739d6a.js.map": "/HuntPadPortfolio/static/js/main.1f739d6a.js.map"
+    "main.773073ac.css.map": "/HuntPadPortfolio/static/css/main.773073ac.css.map",
+    "main.dff549f4.js.map": "/HuntPadPortfolio/static/js/main.dff549f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c37b3be.css",
-    "static/js/main.1f739d6a.js"
+    "static/css/main.773073ac.css",
+    "static/js/main.dff549f4.js"
   ]
 }
